@@ -1,6 +1,6 @@
 {
   "name": "identifiers-nct",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extract, validate and normalize National Clinical Trials IDs.",
   "keywords": [
     "nct",
