@@ -1,33 +1,19 @@
-# Identifiers - National Clinical Trials IDs 
+# This package has been deprecated
 
-Extract, validate and normalize [National Clinical Trials IDs](https://clinicaltrials.gov/).
+This package has been consolidated into [@altmetric/identifiers](https://github.com/altmetric/identifiers-js).
 
-**Current version:** 0.1.1  
-**Supported Node.js versions:** 18, 20, 22, 23
+## Migration
 
-## Installation
+Replace:
 
-Add the following to your `package.json` via `yarn add identifiers-nct` or `npm install --save identifiers-nct`:
-
-```shell
-"identifiers-nct": "^0.1.0"
+```js
+import { extract } from 'identifiers-nct';
 ```
 
-## Usage
+With:
 
-```javascript
-const nct = require("identifiers-nct");
-
-nct.extract("nct00000106\nnCt00000107");
-//=> ["NCT00000106", "NCT00000107"]
+```js
+import { extract } from '@altmetric/identifiers/nct';
 ```
 
-## Other versions
-
-We also maintain versions of this library for [Ruby](https://github.com/altmetric/identifiers) and [PHP](https://github.com/altmetric/php-identifiers).
-
-## License
-
-Copyright © 2017-2024 Altmetric LLP
-
-Distributed under the [MIT License](http://opensource.org/licenses/MIT).
+See the [@altmetric/identifiers README](https://github.com/altmetric/identifiers-js#readme) for full documentation.
